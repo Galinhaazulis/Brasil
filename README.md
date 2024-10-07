@@ -25,6 +25,13 @@ Frame.Size = UDim2.new(0, 200, 0, 750)
 Frame.Active = true
 Frame.Draggable = true
 
+-- Adiciona o fundo quadriculado
+local GridTexture = Instance.new("ImageLabel")
+GridTexture.Parent = Frame
+GridTexture.Size = UDim2.new(1, 0, 1, 0)
+GridTexture.BackgroundTransparency = 1
+GridTexture.Image = "rbxassetid://12345678" -- Substitua pelo ID da textura quadriculada
+
 CloseButton.Parent = Frame
 CloseButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 CloseButton.Position = UDim2.new(1, -25, 0, 0)
