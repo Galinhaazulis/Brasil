@@ -15,8 +15,8 @@ function teletransportar(jogador, teleporte)
 end
 
 -- Definindo os pontos de teleporte com coordenadas específicas do jogo
-entradaCofre = criarTeleporte("Entrada do Cofre", 120, 30, 45)
-entregaDinheiro = criarTeleporte("Entrega de Dinheiro", 200, 40, 75)
+local entradaCofre = criarTeleporte("Entrada do Cofre", 120, 30, 45)
+local entregaDinheiro = criarTeleporte("Entrega de Dinheiro", 200, 40, 75)
 
 -- Criando a interface da hub
 local ScreenGui = Instance.new("ScreenGui")
